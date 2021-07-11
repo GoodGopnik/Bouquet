@@ -51,7 +51,7 @@
     }
 }
 @media(max-width:992px) {
-    .wrapper .navigation-block__ul li:hover{
+    .wrapper .navigation-block__ul > li:hover{
         margin-bottom: 200px !important;
         transition: all 0.3s;
     }
@@ -123,8 +123,8 @@
     .wrapper .navigation li:not(:last-child) {
         margin-right: 0;
     }
-    .navigation li {
-        margin: 10px 0;
+    .navigation li:not(:last-child) {
+        margin-bottom: 50px;
     }
     .wrapper .navigation {
         padding: 10px 0;
