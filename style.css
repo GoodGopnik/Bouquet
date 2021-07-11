@@ -192,9 +192,11 @@ body{
 .navigation-block li:hover .navigation-block__sub-flow{
     opacity: 1;
     transition: all 0.3s;
+    visibility: visible;
 }
 .navigation-block__sub-flow {
     opacity: 0;
+    visibility: hidden;
     position: absolute;
     display: flex;
     flex-direction: column;
