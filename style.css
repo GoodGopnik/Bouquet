@@ -190,12 +190,11 @@ body{
     transform: rotate(-45deg);
 }
 .navigation-block li:hover .navigation-block__sub-flow{
-    display: block !important;
+    opacity: 1;
     transition: all 0.3s;
 }
 .navigation-block__sub-flow {
-    opacity: 1;
-    display: none !important;
+    opacity: 0;
     position: absolute;
     display: flex;
     flex-direction: column;
