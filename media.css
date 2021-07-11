@@ -51,6 +51,9 @@
     }
 }
 @media(max-width:992px) {
+    .navigation-block {
+        padding: 10px 0;
+    }
     .navigation-block__sub-flow {
         position: relative !important;
     }
